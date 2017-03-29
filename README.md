@@ -1,3 +1,9 @@
+Did some play with Animated and PanResponder to try to recreate a common modal pattern in ios apps.
+
+[Demo GIF](https://github.com/kimf/react-native-animated-play/raw/master/demo.gif)
+
+--- 
+
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
