@@ -48,8 +48,9 @@ export default class App extends Component {
         this.state.modal.setValue({ x: 0, y: 0 }); //Initial value
       },
       onPanResponderMove: Animated.event([
-        null, { dx: 0, dy: this.state.modal.y }
-      ]), // Creates a function to handle the movement and set offsets
+        null,
+        { dx: 0, dy: this.state.modal.y }
+      ]),
       onPanResponderRelease: () => {
         const y = this.state.modal.y._value
         if (y > 200) {
