@@ -1,0 +1,4 @@
+node_modules/
+ios/build/
+.expo/
+npm-debug.*
